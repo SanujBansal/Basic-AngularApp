@@ -1,1 +1,6 @@
-<p>hello works!</p>
+
+<h1>Posts</h1>
+
+<div class="post-container" *ngFor="let post of posts">
+    <app-post [post]="post"></app-post>
+</div>
